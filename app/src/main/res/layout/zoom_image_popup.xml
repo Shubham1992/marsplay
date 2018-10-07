@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:clickable="true">
+
+    <com.example.shubhamgoel.marsplay.utils.TouchImageView
+        android:id="@+id/touchImage"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+</FrameLayout>
